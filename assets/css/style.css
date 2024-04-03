@@ -1,29 +1,5 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
 /*-------------------------------------
-		1.General css (Reset code)
+		1.General css 
 --------------------------------------*/
 *{
     padding: 0;
@@ -503,19 +479,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
-.profiles {
+.projects {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
 
-.profiles-content {padding-top: 100px;}
-.profiles-content .col-sm-3{padding:0;}
-.profile-txt {
+.projects-content {padding-top: 100px;}
+.projects-content .col-sm-3{padding:0;}
+.project-txt {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.single-profile {
+.single-project {
     position: relative;
     height: 150px;
     display: flex;
@@ -529,16 +505,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition:background 0.5s linear; 
     transition:background 0.5s linear;
 }
-.profile-icon-name {
+.project-icon-name {
     text-transform: capitalize;
     color: #636a82;
     font-size: 16px;
 }
-.single-profile.profile-no-border{border-right:transparent;}
-.profile-border {
+.single-project.project-no-border{border-right:transparent;}
+.project-border {
     border-bottom: 1px solid #b2c1ce;
 }
-.single-profile-overlay{
+.single-project-overlay{
     display:flex;
     align-items:center;
     text-transform: capitalize;
@@ -565,7 +541,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition: .5s;
     transition: .5s;
 }
-.single-profile:hover .single-profile-overlay{
+.single-project:hover .single-project-overlay{
     -webkit-transform:scale(1);
     -moz-transform:scale(1);
     -ms-transform:scale(1);
@@ -573,10 +549,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
 }
-.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
-.single-profile:hover .profile-border {border:transparent;}
+.single-project:hover .project-icon-name,.single-project:hover .project-txt a>i{color: #fff;}
+.single-project:hover .project-border {border:transparent;}
 /*-------------------------------------
-        11. Contact
+        9. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
